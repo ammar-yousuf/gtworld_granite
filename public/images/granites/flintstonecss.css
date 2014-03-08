@@ -1,0 +1,471 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	background: url(../images/bg-box.gif);
+	font: 11px/20px Tahoma;
+	color: #FFFFFF;
+}
+#contentWrapperDiv {
+	width: 1008px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#headerWrapperDiv {
+	background: url(../images/Bg_top.jpg);
+	float: left;
+	height: 506px;
+	width: 1008px;
+}
+#logoDiv {
+	margin-top: 55px;
+	margin-left: 40px;
+	float: left;
+	height: 60px;
+	width: 200px;
+}
+#menuTopDiv {
+	float: right;
+	margin-top: 65px;
+	margin-right: 40px;
+	border: 1px solid #2e2e2e;
+	padding: 10px 10px 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+#menuTopDiv a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menuTopDiv a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+#MenuSliderWrapper {
+	float: left;
+	width: 1008px;
+	margin-top: 20px;
+}
+
+#menuLeftDiv {
+	float: left;
+	width: 263px;
+	background: #3a3a3a;
+	margin-left: 5px;
+	padding-left: 50px;
+	height: 322px;
+	padding-top: 20px;
+}
+#slider {
+	float: right;
+	width: 685px;
+	margin-right: 5px;
+	height: 342px;
+	background: #CCCCCC;
+	overflow: hidden;
+}
+
+#slider ul,
+#slider li { margin:0; padding:0px 0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li {
+	width:685px;
+	height:342px;
+	overflow:hidden;
+}
+#headerWrapperDiv {
+	float: left;
+	width: 1008px;
+}
+#bodyWrapperDiv {
+	float: left;
+	width: 998px;
+	background: url(../images/Bg_Middle1.jpg) repeat-y;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#welcomeWrapperDiv {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 500px;
+}
+#welcomeTitleDiv {
+	font: 24px "Kozuka Mincho Pro EL";
+	color: #FFFFFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	width: 450px;
+}
+.title {
+	font: 24px "Kozuka Mincho Pro EL";
+}
+
+#welcometxtDiv {
+	font: 11px/20px Tahoma;
+	padding-top: 10px;
+}
+#contactFDiv {
+}
+
+
+#latestDiv {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 400px;
+}
+#latestTitleDiv {
+	width: 380px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#latestContDiv {
+	font: 18px "Kozuka Mincho Pro EL";
+	float: left;
+	width: 380px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+#latest1 {
+	float: left;
+	width: 174px;
+}
+#latest2 {
+	float: right;
+	width: 174px;
+}
+#featuredServDiv {
+	width: 958px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 25px;
+	float: left;
+}
+#featuredTitleDiv {
+	float: left;
+	width: 958px;
+	font: 18px "Kozuka Mincho Pro EL";
+}
+#featuredContDiv {
+	float: left;
+	width: 958px;
+	padding-top: 15px;
+	text-align: center;
+}
+#graniteSelectionDiv {
+	float: left;
+	margin-top: 20px;
+	width: 958px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#graniteSelecTitleDiv {
+	font: 18px "Kozuka Mincho Pro EL";
+	float: left;
+	width: 958px;
+}
+#graniteSelecColorsDiv {
+	float: left;
+	width: 130px;
+	margin-top: 10px;
+	text-align: center;
+}
+#viewallcolors {
+	float: left;
+	width: 940px;
+	margin-top: 10px;
+	text-align: right;
+	margin-right: 18px;
+}
+#ArtTesContDiv {
+	float: left;
+	width: 958px;
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#Div1       {
+	float: left;
+	width: 319px;
+}
+#Div1Title {
+	font: 18px "Kozuka Mincho Pro EL";
+	width: 279px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#Div1Cont {
+	float: left;
+	width: 279px;
+	padding-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+#Div1Cont a {
+	font-weight: bold;
+	color: #8b991a;
+	text-decoration: none;
+}
+#Div1Cont a:hover {
+	font-weight: bold;
+	color: #990000;
+	text-decoration: underline;
+}
+#Div1More {
+	float: left;
+	width: 270px;
+	text-align: right;
+	padding: 10px;
+}
+
+
+
+
+#Div2 {
+	float: left;
+	width: 319px;
+}
+#Div2Title {
+	font: 18px "Kozuka Mincho Pro EL";
+	width: 279px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#Div2Cont {
+	float: left;
+	width: 279px;
+	padding-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+
+
+#Div3 {
+	float: left;
+	width: 319px;
+}
+#Div3Title {
+	font: 18px "Kozuka Mincho Pro EL";
+	width: 279px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#Div3Cont {
+	float: left;
+	width: 279px;
+	padding-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+#Div3Cont a {
+	color: #8b991a;
+	text-decoration: none;
+}
+#Div3Cont a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+#footer {
+	float: left;
+	width: 998px;
+	height: 110px;
+	background: #282828;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-top: 1px solid #3a3a3a;
+}
+#FooterInfoDiv {
+	font-size: 10px;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 20px;
+	margin-left: 20px;
+	width: 360px;
+	text-align: center;
+	line-height: 20px;
+}
+#FooterInfoDiv a {
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+#FooterInfoDiv a:hover {
+	font-size: 10px;
+	color: #990000;
+	text-align: center;
+	text-decoration: underline;
+}
+#footerIMGDiv {
+	float: right;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+#footerIMGDiv img {
+	float: right;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+
+#aboutDiv {
+	float: left;
+	width: 958px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.style2 {
+	font: bold 14px;
+}
+#welcometxtDiv  .style2 {
+	font: bold 14px;
+}
+#testimonialsDiv {
+	float: left;
+	width: 650px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+#leavetesthereDiv {
+	float: right;
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 270px;
+	border: 1px solid #4e4e4e;
+	margin-bottom: 20px;
+}
+#leavetitleDiv {
+	width: 250px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font: 18px "Kozuka Mincho Pro EL";
+	float: right;
+}
+#leavecontDiv {
+	width: 250px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+}
+#faqDiv {
+	font: 11px/20px Tahoma;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#faqDiv a {
+	font: 14px/20px Tahoma;
+	padding-top: 10px;
+	color: #8b991a;
+	text-decoration: none;
+}
+#contactFDiv {
+	font: 11px/20px Tahoma;
+	padding-top: 10px;
+	float: left;
+	padding-left: 10px;
+	width: 640px;
+}
+#contactFDiv a {
+	color: #8b991a;
+	text-decoration: none;
+}
+#StoneGalleryDiv {
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	width: 958px;
+}
+#stoneGImgDiv {
+	float: left;
+	width: 130px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+#edgesWrapperDiv {
+	float: left;
+	width: 918px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+#EdgesDiv1 {
+	float: left;
+	width: 958px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+#EdgesImgDiv {
+	float: left;
+	width: 150px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+#articlesNDiv {
+	float: left;
+	width: 640px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+#articlesNDiv a {
+	font-weight: bold;
+	color: #8b991a;
+	text-decoration: none;
+}
+#articlesNDiv a:hover {
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+
+#paddingarticleDiv {
+	text-align: center;
+	float: left;
+	width: 650px;
+}
+#leavecontDiv a {
+	font-weight: bold;
+	color: #8b991a;
+	text-decoration: none;
+}
+#leavecontDiv a:hover {
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+#pagArtDiv {
+	float: left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 250px;
+	text-align: center;
+}

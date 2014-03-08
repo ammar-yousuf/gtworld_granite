@@ -1,0 +1,83 @@
+<!-- MAIN -->
+<div id="main">
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- home-content -->
+		<div class="static-content">
+
+    <div class="bullet-title"><div class="huge">Contact</div></div>
+    
+    <%= form_tag contact_path do %>    
+      <fieldset class="fields">
+        <div class="label">
+          Name
+        </div>
+        <div class="field">
+          <%= text_field_tag :name %>
+        </div>
+
+        <div class="label">
+          Email
+        </div>
+        
+        <div class="field">
+          <%= text_field_tag :email %>
+        </div>
+
+        <div class="label">
+          Address
+        </div>
+        
+        <div class="field">
+          <%= text_field_tag :address %>
+        </div>
+
+        <div class="label">
+          City
+        </div>
+        
+        <div class="field">
+          <%= text_field_tag :city %>
+        </div>
+
+        <div class="label">
+          State
+        </div>
+        
+        <div class="field">
+          <%= text_field_tag :state %>
+        </div>
+
+        <div class="label">
+          Zip
+        </div>
+        
+        <div class="field">
+          <%= text_field_tag :zip %>
+        </div>
+
+        <div class="label">
+          Subject
+        </div>
+
+        <div class="field">                  
+          <%= text_field_tag :subject %>
+        </div>
+
+        <div class="label">
+          Message
+        </div>
+
+        <div class="field">          
+          <%= text_area_tag :body %>
+        </div>
+      </fieldset>
+
+      <fieldset class="actions">
+        <%= submit_tag "Send" %>
+      </fieldset>
+    <% end %>
+    
+    </div>
+  </div>
+</div>
